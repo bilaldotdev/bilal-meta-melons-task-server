@@ -6,6 +6,7 @@ contains a client and a server folder for both frontend and backend apps.
 
     Nodejs v18.x
     Postgres installed on your OS
+    Do not forget to rename migration file to ".mjs"
 
 # Server Setup
 
