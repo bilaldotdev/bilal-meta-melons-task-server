@@ -1,5 +1,14 @@
+# folders
 node_modules
 build
+config
+migrations
+models
+seeders
+
+
+
+# files
 .env
 .env*
 config

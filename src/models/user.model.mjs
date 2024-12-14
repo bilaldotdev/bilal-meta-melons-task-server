@@ -5,7 +5,7 @@ import { DataTypes, Sequelize } from 'sequelize';
  */
 const User = sequelize => {
   return sequelize.define(
-    'User',
+    'user',
     {
       name: {
         type: DataTypes.STRING(20),

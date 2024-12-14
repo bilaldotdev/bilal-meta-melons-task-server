@@ -11,7 +11,7 @@ const statuses = [pending, 'in_progress', 'completed'];
  */
 const Task = sequelize => {
   return sequelize.define(
-    'Task',
+    'task',
     {
       title: {
         type: DataTypes.STRING(100),

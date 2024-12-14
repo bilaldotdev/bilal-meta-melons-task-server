@@ -24,7 +24,7 @@ app.use('/api/secure', [addUserToRequestMiddleware, authMiddleWare]);
 
 app.use('/api/auth', authRouter);
 
-// app.use('/api/secure/users', userRouter);
+app.use('/api/secure/users', userRouter);
 
 app.use('/api/secure/tasks', taskRouter);
 
